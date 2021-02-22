@@ -1,0 +1,115 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.master.cs" Inherits="Universo_Alterno.Plantilla" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Universo Alterno</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: medium;
+            width: 170px;
+            height: 24px;
+        }
+        .auto-style2 {
+            left: 0px;
+            top: 0px;
+        }
+        .auto-style3 {
+            height: 74px;
+        }
+        .auto-style4 {
+            width: 267px;
+            height: 103px;
+        }
+        .auto-style5 {
+            width: 618px;
+            height: 40px;
+        }
+        .auto-style6 {
+            margin-left: 0;
+        }
+        .auto-style7 {
+            margin-left: 49;
+            margin-top: 91;
+        }
+        .auto-style8 {
+            width: 168px;
+        }
+        .auto-style9 {
+            left: 0px;
+            top: 0px;
+            width: 889px;
+        }
+    </style>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+<!-- ####################################################################################################### -->
+<!--HEADER-->
+
+<div class="wrapper col1">
+  <div id="header" class="auto-style9">
+    <div id="logo" class="auto-style4">
+      <h1 class="auto-style8"><a href="Home.aspx">Universo Alterno</a></h1>
+      <p class="auto-style1">Sala de ensayo</p>
+    </div>
+    <div id="topnav" class="auto-style6">
+      <ul class="auto-style5">
+        <li class="active"><a href="Home.aspx">Home</a></li>
+          <!--<a href="Usuarios.aspx">Home</a></li>
+        <li><a href="Home.aspx">Home</a></li>-->
+        <li><a href="Usuarios.aspx">Usuarios</a></li>
+        <li><a href="Inventario.aspx">Inventario salas</a></li>
+        <li><a href="Proveedores.aspx">Proveedores</a></li>
+        <li><a href="Ventas.aspx">Ventas</a></li>
+        <li><a href="Compras.aspx">Compras</a></li>
+        <li><a href="reporte_1.aspx">Reporte ventas</a></li> 
+        <li><a href="reporte_2.aspx">Reporte ventas Grafico</a></li> 
+      </ul>
+    </div>
+     
+    <br class="clear" />
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col2" style="height: 989px; margin-left: 1px">
+      
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+                <br />
+            </p>
+        </asp:ContentPlaceHolder>
+      
+    </div>
+
+<div class="wrapper col2" style="width: 100%; height: 119px; margin-left: 0px">
+    <br />
+    <br />
+  <div id="featured_slide0" class="auto-style2">
+    <div id="featured_content0" class="auto-style3">
+      
+        <br />
+        <br />
+      
+    </div>
+    </div>
+    </div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2021 - Derechos Reservados - <a href="#">Universidad Francisco José de Caldas</a></p>
+    <p class="fl_right">Design by Andrés Mauricio Talero Marcelo </p>
+    <br class="clear" />
+  </div>
+</div>
+    </form>
+</body>
+</html>
