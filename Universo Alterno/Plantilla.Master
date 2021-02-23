@@ -69,8 +69,8 @@
         <li><a href="Proveedores.aspx">Proveedores</a></li>
         <li><a href="Ventas.aspx">Ventas</a></li>
         <li><a href="Compras.aspx">Compras</a></li>
-        <li><a href="reporte_1.aspx">Reporte ventas</a></li> 
-        <li><a href="reporte_2.aspx">Reporte ventas Grafico</a></li> 
+        <li><a href="Reporte_venta_servicios.aspx">Reporte ventas</a></li> 
+        <li><a href="reporte_cliente.aspx">Reporte ventas Grafico</a></li> 
       </ul>
     </div>
      
